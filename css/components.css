@@ -1,0 +1,72 @@
+/* styles for buttons */
+button{
+    border-radius: 5px;
+    background-color: #231f20;
+    font-family: Roboto condensed, serif;
+    font-size: 15px;
+    border: 0;
+    color: white;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+button:hover{
+    background-color: rgb(2, 2, 2);
+    box-shadow: 0 0 5px 1px rgb(218, 218, 218);
+}
+
+/* styles for inputs */
+input[type=date],
+input[type=text],
+input[type=number]{
+    padding: 8px 10px;
+    font-family: Roboto condensed, serif;
+    font-size: 15px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+}
+input{
+    outline: none;
+    transition: color 0.25s,
+                box-shadow 0.25s;
+            }
+input:focus:not(.invalid-input){
+    box-shadow: 0 0 1px 3px #0202022a !important;
+    border: 1px solid #0000008a !important;
+}
+
+input.invalid-input{
+    border: 1px solid rgb(238, 2, 2);
+}
+input.invalid-input:focus{
+    box-shadow: 0 0 1px 3px rgba(238, 3, 3, 0.364);
+}
+
+
+/* styles for select */
+select{
+    padding: 8px 10px;
+    font-family: Roboto condensed, serif;
+    font-size: 15px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    cursor: pointer;
+}
+select:focus:not(.invalid-input){
+    box-shadow: 0 0 1px 3px #0202022a !important;
+    border: 1px solid #0000008a !important;
+}
+select.invalid-input{
+    border: 1px solid rgb(226, 0, 0);
+    box-shadow: 0 0 1px 3px rgba(226, 0, 0, 0.226);;
+
+}
+
+
+/* styles for from errors */
+span.input-error{
+    font-family: Roboto condensed, serif;
+    font-size: 15px;
+    color: rgb(226, 0, 0);
+    margin-top: 5px;
+}

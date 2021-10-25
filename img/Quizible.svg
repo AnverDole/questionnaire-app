@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 175 178 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-size: 50px;
+        font-family: Roboto-BoldItalic, Roboto;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        fill: #01c7e1;
+        font-family: Roboto-Regular, Roboto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </defs>
+  <text id="Quizible" class="cls-1" transform="translate(75 223)"><tspan x="0" y="0">Q</tspan><tspan class="cls-2" y="0">uizible</tspan></text>
+</svg>
